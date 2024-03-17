@@ -1,0 +1,24 @@
+.IconButton {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+}
+.IconButton:hover {
+    box-shadow: 0 2px 10px #d9d9d9;
+}
+
+.TooltipContent {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.TooltipArrow {
+    color: #000;
+}
